@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    /* display: flex; */
+    background-color: rgb(252, 238, 238);
+   overflow-x: hidden;
+}
+.chart-container{
+width: 40%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+}
+h4{
+    width: 100%;
+    padding-top:1em;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    color: rgb(8, 8, 8);
+    font-size: 1rem;
+}
+
+#bar-chart{
+    padding:1em;
+}
+
+@media only screen  and (max-width:400px){
+    .chart-container{
+        width:100%;
+       
+        
+    }
+    h4{
+        font-size: medium;
+    }
+}
+@media only screen  and (max-width:600px){
+    .chart-container{
+        width:100%;
+       
+        
+    }
+    h4{
+        font-size: medium;
+    }
+}
